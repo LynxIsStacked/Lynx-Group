@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lynx Group | Where Legends Play</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    * {margin:0; padding:0; box-sizing:border-box; scroll-behavior:smooth;}
+    body {font-family:'Roboto', sans-serif; background:#0a0a0a; color:#fff;}
+    header {position:fixed; top:0; left:0; width:100%; background:#0a0a0a; border-bottom:2px solid #8b0000; z-index:100; padding:15px 50px; display:flex; justify-content:space-between; align-items:center;}
+    header img {height:50px;}
+    nav a {margin-left:25px; font-weight:700; color:#fff; transition:0.3s;}
+    nav a:hover {color:#ff0000;}
+
+    section {min-height:100vh; padding:100px 50px 50px 50px;}
+
+    #home {display:flex; flex-direction:column; align-items:center; justify-content:center; background:linear-gradient(45deg,#0a0a0a,#1a0000);}
+    #home h1 {font-size:4rem; color:#ff0000; text-shadow:0 0 10px #ff0000; margin-bottom:10px;}
+    #home p {font-size:1.3rem; margin-bottom:25px;}
+    .btn {padding:12px 25px; border:2px solid #ff0000; color:#ff0000; font-weight:700; transition:0.3s; display:inline-block;}
+    .btn:hover {background:#ff0000; color:#0a0a0a;}
+
+    #services h2, #contact h2 {font-size:3rem; margin-bottom:20px; color:#ff0000; text-shadow:0 0 5px #ff0000;}
+
+    .games {display:flex; justify-content:center; gap:40px; margin-top:30px; flex-wrap:wrap;}
+    .games img {width:180px; border:3px solid #ff0000; border-radius:12px; transition:0.3s;}
+    .games img:hover {transform:scale(1.08); border-color:#ff6666;}
+
+    .contact-list {list-style:none; margin-top:20px;}
+    .contact-list li {margin-bottom:15px; font-size:1.2rem;}
+    .contact-list a {color:#ff0000; transition:0.3s;}
+    .contact-list a:hover {color:#ff6666;}
+
+    html {scroll-padding-top:80px;}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Lynx Logo">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="https://m.youtube.com/@FerretNotG4y" target="_blank">YouTube</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Lynx Group</h1>
+    <p>Where Legends Play — Fortnite • Roblox • Minecraft</p>
+    <a href="#services" class="btn">Explore</a>
+</section>
+
+<section id="services">
+    <h2>What We Do</h2>
+    <p>We create gaming content for Fortnite, Roblox, and Minecraft — new videos, highlights, and community fun.</p>
+
+    <!-- Game Image Section -->
+    <div class="games">
+        <div>
+            <img src="https://via.placeholder.com/180?text=Roblox" alt="Roblox">
+            <p style="text-align:center; margin-top:8px;">Roblox Adventures</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/180?text=Fortnite" alt="Fortnite">
+            <p style="text-align:center; margin-top:8px;">Fortnite Battles</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/180?text=Minecraft" alt="Minecraft">
+            <p style="text-align:center; margin-top:8px;">Minecraft Builds</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+        <li>
